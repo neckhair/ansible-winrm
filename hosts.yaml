@@ -1,0 +1,9 @@
+---
+win:
+  hosts:
+    192.168.1.135:
+      ansible_port: 5985
+      ansible_user: phil
+      ansible_password: "super password"
+      ansible_connection: winrm
+      ansible_winrm_transport: ntlm
